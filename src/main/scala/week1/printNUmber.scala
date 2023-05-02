@@ -11,7 +11,6 @@ object printNUmber {
       i=i+1
     }
 
-   // for(i< ){
 
     
 
