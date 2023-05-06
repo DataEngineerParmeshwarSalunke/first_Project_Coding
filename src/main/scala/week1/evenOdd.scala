@@ -8,27 +8,24 @@ object evenOdd {
 
     println("Enter The Number")
 
-    // val num = scala.io.StdIn.readInt()
+     val num = scala.io.StdIn.readInt()
 
-    val num = 90 to 1000
-    for (i <- num) {
-
-      if (i >= 100 && i <= 1000) {
+    val count = 100 until num
+    for (i <- count) {
 
         if (i % 2 == 0) {
           println("Even Number is :", i)
+          val b=i/3
+          println(s"Even Number Reminder is :$b")
 
         }
         else {
           println("Odd number is :", i)
+          val c=i/2
+          println(s"Odd Numbers Reminder is : $c ")
         }
 
-
       }
-      else {
-        println(s"The Given Number : $num Is Not In Range 100 to 1000");
-
-      }
-    }
+    println("You Entered Wrong Number (Out Of Range)")
 
   }}
