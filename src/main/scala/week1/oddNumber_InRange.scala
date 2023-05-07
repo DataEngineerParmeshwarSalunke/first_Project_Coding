@@ -1,18 +1,18 @@
 package week1
-  // write a program tp print EVEN number in given range 51-251
-object evenNumberIn_Range {
+
+// write a program tp print ODD number in given range 251-51
+object oddNumber_InRange {
   def main (args:Array[String]): Unit ={
 
-  val num = 700 to 900
-
-    for(i<-num){
-
-       if(i%2 ==0)
-         println(s"Even NUmber is  :  $i")
-
-
-
-    }
+//        val num = 251 to 51
+//        var i=251
+//           while( i< num){
+//           if(i%2 !=0) {
+//           println(s"Odd NUmber is  :  $i")
+//           i=i-1
+//           }
+//
+//           }
 
   }
 

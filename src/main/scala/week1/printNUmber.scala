@@ -11,9 +11,6 @@ object printNUmber {
       i=i+1
     }
 
-
-    
-
   }
 
 }

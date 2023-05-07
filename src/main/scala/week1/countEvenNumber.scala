@@ -1,19 +1,22 @@
 package week1
-  // write a program tp print EVEN number in given range 700-900
-object evenNumberIn_Range {
-  def main (args:Array[String]): Unit ={
 
-  val num = 700 to 900
+// write a program tp COUNT EVEN number in given range
+object countEvenNumber {
+  def main (args:Array[String]): Unit = {
 
-    for(i<-num){
+    println("Enter  Number ")
+    val a = scala.io.StdIn.readInt()
+    var count =0
+    var c=0
+     while(c<a){
 
-       if(i%2 ==0)
-         println(s"Even NUmber is  :  $i")
+       if(c%2==0){
 
+         count=count+1
+       }
+       c=c+1
 
-
-    }
-
+     }
+    println(s"Total Even numbers are : $count")
   }
-
 }
