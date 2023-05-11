@@ -1,18 +1,18 @@
 package week1
 
-// write a program tp print ODD number in given range 251-51
+// write a program tp print ODD number in given range 251-51 like(251,249,247.....)
 object oddNumber_InRange {
   def main (args:Array[String]): Unit ={
 
-//        val num = 251 to 51
-//        var i=251
-//           while( i< num){
-//           if(i%2 !=0) {
-//           println(s"Odd NUmber is  :  $i")
-//           i=i-1
-//           }
-//
-//           }
+    for(i <- 251 to 51 by -1){
+
+      if(i%2 !=0)
+
+         print(s" $i")
+
+    }
+
+
 
   }
 
