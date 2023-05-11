@@ -7,7 +7,7 @@ object alternate_EvenNumber {
 
     val num = 20 to 140
     var i = 1
-    for (i <- num) {
+    for (i <-  num) {
 
       if (i % 2 == 0) {
 
