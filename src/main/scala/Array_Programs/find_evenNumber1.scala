@@ -1,6 +1,6 @@
 package Array_Programs
 
-object find_evenNumber {
+object find_evenNumber1 {
 
   def main(args:Array[String]): Unit={
 

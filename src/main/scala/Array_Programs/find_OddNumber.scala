@@ -13,7 +13,7 @@ object find_OddNumber {
                 arr(i)=scala.io.StdIn.readInt()
 
                }
-               println("Even Number in Array is =========")
+               println("Odd Number in Array is =========")
                for(a<- 0 until(size)){
 
                    if(arr(a)%2 != 0) {
