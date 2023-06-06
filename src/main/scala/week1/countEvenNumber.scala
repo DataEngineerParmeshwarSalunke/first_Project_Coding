@@ -10,13 +10,13 @@ object countEvenNumber {
     var c=0
      while(c<a){
 
-       if(c%2==0){
-
+       if(c%2 !=0){
+        print(s"Odd Number are : $c")
          count=count+1
        }
        c=c+1
 
      }
-    println(s"Total Even numbers are : $count")
+    println(s"Total Odd numbers are : $count")
   }
 }

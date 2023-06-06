@@ -2,7 +2,7 @@ package week1
 
 object big_Number {
   def main(args:Array[String]): Unit ={
-    println("Enter Three Numbers")
+    println("Enter the three values")
     val a=scala.io.StdIn.readInt()
 
     val b=scala.io.StdIn.readInt()
